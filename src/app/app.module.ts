@@ -6,13 +6,15 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { ProductPageComponent } from './product-page/product-page.component';
 import { ProductDescriptionComponent } from './product-description/product-description.component';
-import {ProductService} from './product.service'
+import {ProductService} from './product.service';
+import { ProductTrachlistingComponent } from './product-trachlisting/product-trachlisting.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductPageComponent,
-    ProductDescriptionComponent
+    ProductDescriptionComponent,
+    ProductTrachlistingComponent
   ],
   imports: [
     BrowserModule,
